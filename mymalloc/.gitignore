@@ -1,0 +1,29 @@
+mdriver
+*.o
+.cflags
+
+# S3
+.debug_s3home_mount_*
+
+# emacs
+*~
+#*
+
+# LaTeX
+_minted-main
+auto
+*.log
+*.aux
+
+# Cachegrind/perf
+cachegrind.out*
+perf.data*
+
+# AWSRUN
+job_*
+log.awsrun
+
+# OpenTuner
+*.pyc
+opentuner.db
+opentuner.log
